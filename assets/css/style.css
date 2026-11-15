@@ -369,3 +369,8 @@ footer { background:#15152e; color:#eef0f8; padding:40px 0 32px; }
   .peek-pager { grid-template-columns:1fr; }
   .peek-pager a:last-child { text-align:left; }
 }
+
+/* Pre-order links */
+.announcement-bar a { text-underline-offset:3px; }
+a.coming-soon-badge { text-decoration:none; }
+a.coming-soon-badge:hover { background:#ffe4da; text-decoration:underline; text-underline-offset:3px; }
