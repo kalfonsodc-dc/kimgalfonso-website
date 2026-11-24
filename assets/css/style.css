@@ -374,3 +374,22 @@ footer { background:#15152e; color:#eef0f8; padding:40px 0 32px; }
 .announcement-bar a { text-underline-offset:3px; }
 a.coming-soon-badge { text-decoration:none; }
 a.coming-soon-badge:hover { background:#ffe4da; text-decoration:underline; text-underline-offset:3px; }
+
+/* Press release */
+.press-title { font-size:clamp(2rem, 4.2vw, 3.3rem); max-width:980px; }
+.press-body { font-size:1.08rem; }
+.press-body h2 { font-size:clamp(1.6rem, 3vw, 2.2rem); }
+.press-source { margin-top:2em; padding-top:1.2em; border-top:1px solid var(--line); color:var(--muted); font-size:.95rem; }
+.format-grid { display:grid; grid-template-columns:1fr 1fr; gap:18px; margin:18px 0 8px; }
+.format-card {
+  display:flex; flex-direction:column; background:#fff; border:1px solid var(--line);
+  border-top:5px solid var(--coral); border-radius:18px; padding:22px;
+}
+.format-card h3 { margin:0; }
+.format-price { font-family:Georgia, serif; font-size:2rem; font-weight:700; color:var(--navy); margin:.1em 0 .2em !important; }
+.format-card .btn { margin-top:auto; align-self:flex-start; }
+.media-item img[src*="book-front"] { max-width:170px; justify-self:center; }
+.cover-btn { width:100%; margin-top:12px; }
+@media (max-width: 620px) {
+  .format-grid { grid-template-columns:1fr; }
+}
